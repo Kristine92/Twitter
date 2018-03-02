@@ -8,6 +8,7 @@ target 'twitter_alamofire_demo' do
   # Pods for twitter_alamofire_demo
   pod 'Alamofire'
   pod 'OAuthSwift'
+  pod 'AlamofireImage'
   pod 'OAuthSwiftAlamofire'
   pod 'KeychainAccess'
 

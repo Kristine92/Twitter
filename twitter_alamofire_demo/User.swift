@@ -12,10 +12,12 @@ class User {
     
     var name: String
     var screenName: String?
+    var profileImageUrl: String?
     static var current: User?
     
     init(dictionary: [String: Any]) {
         name = dictionary["name"] as! String
         screenName = dictionary["screen_name"] as? String
+        profileImageUrl = dictionary["profile_image_url_https"] as? String
     }
 }
